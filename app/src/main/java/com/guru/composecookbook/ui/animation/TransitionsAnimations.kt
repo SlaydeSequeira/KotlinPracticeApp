@@ -51,7 +51,7 @@ fun MultiStateColorPositionAnimation() {
     SubtitleText(subtitle = "Multi State color and position transition")
     Spacer(modifier = Modifier.height(80.dp))
     var animationState by remember { mutableStateOf(MyAnimationState.START) }
-    val startColor = green200
+    val startColor = green500
     val midColor = purple
     val endColor = orange
 
