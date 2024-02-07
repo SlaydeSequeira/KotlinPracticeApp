@@ -189,7 +189,7 @@ fun MainAppContent(appThemeState: MutableState<AppThemeState>) {
                     homeScreen = homeScreenState.value,
                     appThemeState = appThemeState,
                     chooseColorBottomModalState = chooseColorBottomModalState,
-                    modifier = Modifier.weight(1f)
+                    modifier = Modifier.weight(2f)
                 )
             }
         }
@@ -221,7 +221,7 @@ fun BottomNavigationContent(
             label = {
                 Text(
                     text = stringResource(id = R.string.navigation_item_home),
-                    style = TextStyle(fontSize = 12.sp)
+                    style = TextStyle(fontSize = 14.sp)
                 )
             },
             modifier = Modifier.testTag(TestTags.BOTTOM_NAV_HOME_TEST_TAG)

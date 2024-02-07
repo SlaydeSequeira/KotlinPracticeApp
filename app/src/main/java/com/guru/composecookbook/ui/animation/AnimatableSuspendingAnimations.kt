@@ -123,5 +123,5 @@ fun DraggableCardWithAnimatable() {
             .offset(x = pointerAnimatableX.value.dp, y = pointerAnimatableX.value.dp)
     ) {
     }
-    Spacer(modifier = Modifier.height(101.dp))
+    Spacer(modifier = Modifier.height(100.dp))
 }
